@@ -1,0 +1,11 @@
+{
+	"repos": [
+		{
+			"url": "https://github.com/Coyot23/The-Dragon-s-Heart",
+			"repo_name": "The-Dragon-s-Heart",
+			"repo_path": "./repositories/The-Dragon-s-Heart",
+			"should_update": true,
+			"should_read": true
+		}
+	]
+}
