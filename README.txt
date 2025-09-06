@@ -17,5 +17,5 @@ Name your file "Join.txt" and add your discord username as the content of the fi
 You will then commit your changes
 
 Then, when you return to the repo, you will click "contribute" and open a pull request.
-When you confirm your pull request, your job is over. Delete the repo from your account, close github, and go on with your day.
+When you confirm your pull request, your job is over. Close github, and go on with your day.
 WE will find you.
