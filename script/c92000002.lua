@@ -14,7 +14,7 @@ function s.initial_effect(c)
 	c:RegisterEffect(e1)
 	--Set in F.Zone
 	local e6=Effect.CreateEffect(c)
-	e2:SetDescription(aux.Stringid(id,5))
+	e6:SetDescription(aux.Stringid(id,5))
 	e6:SetType(EFFECT_TYPE_IGNITION)
 	e6:SetRange(LOCATION_MZONE)
 	e6:SetTarget(s.fztg)
@@ -132,4 +132,5 @@ function s.lpop(e,tp,eg,ep,ev,re,r,rp)
 	local thousand=Duel.AnnounceNumberRange(tp,0,100)
 	if not e:GetHandler():IsRelateToEffect(e) then return end
 	Duel.SetLP(tp,one*1+ten*10+hundred*100+thousand*1000,REASON_EFFECT)
+
 end
